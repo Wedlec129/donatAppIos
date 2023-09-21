@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5BD116082AB70CDF00C1A226 /* donatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116072AB70CDF00C1A226 /* donatAppApp.swift */; };
-		5BD1160A2AB70CDF00C1A226 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116092AB70CDF00C1A226 /* ContentView.swift */; };
+		5BD1160A2AB70CDF00C1A226 /* homePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116092AB70CDF00C1A226 /* homePageView.swift */; };
 		5BD1160C2AB70CE100C1A226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1160B2AB70CE100C1A226 /* Assets.xcassets */; };
 		5BD1160F2AB70CE100C1A226 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1160E2AB70CE100C1A226 /* Preview Assets.xcassets */; };
+		5BD116192AB9C6BA00C1A226 /* DonatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116182AB9C6BA00C1A226 /* DonatModel.swift */; };
+		5BD1161B2AB9C76900C1A226 /* DonatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1161A2AB9C76900C1A226 /* DonatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BD116042AB70CDF00C1A226 /* donatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD116072AB70CDF00C1A226 /* donatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donatAppApp.swift; sourceTree = "<group>"; };
-		5BD116092AB70CDF00C1A226 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BD116092AB70CDF00C1A226 /* homePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageView.swift; sourceTree = "<group>"; };
 		5BD1160B2AB70CE100C1A226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD1160E2AB70CE100C1A226 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BD116182AB9C6BA00C1A226 /* DonatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatModel.swift; sourceTree = "<group>"; };
+		5BD1161A2AB9C76900C1A226 /* DonatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				5BD116072AB70CDF00C1A226 /* donatAppApp.swift */,
-				5BD116092AB70CDF00C1A226 /* ContentView.swift */,
+				5BD116152AB70CEC00C1A226 /* Model */,
+				5BD116162AB70CF600C1A226 /* View */,
+				5BD116172AB70CFC00C1A226 /* ViewModel */,
 				5BD1160B2AB70CE100C1A226 /* Assets.xcassets */,
 				5BD1160D2AB70CE100C1A226 /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				5BD1160E2AB70CE100C1A226 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BD116152AB70CEC00C1A226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BD116182AB9C6BA00C1A226 /* DonatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BD116162AB70CF600C1A226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BD116092AB70CDF00C1A226 /* homePageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BD116172AB70CFC00C1A226 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BD1161A2AB9C76900C1A226 /* DonatViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD1160A2AB70CDF00C1A226 /* ContentView.swift in Sources */,
+				5BD1160A2AB70CDF00C1A226 /* homePageView.swift in Sources */,
+				5BD1161B2AB9C76900C1A226 /* DonatViewModel.swift in Sources */,
+				5BD116192AB9C6BA00C1A226 /* DonatModel.swift in Sources */,
 				5BD116082AB70CDF00C1A226 /* donatAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

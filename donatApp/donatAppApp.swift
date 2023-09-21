@@ -11,7 +11,9 @@ import SwiftUI
 struct donatAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            homePageView()
+                .environmentObject(DonatViewModel())
+                
         }
     }
 }
